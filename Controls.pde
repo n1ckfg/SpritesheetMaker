@@ -52,6 +52,7 @@ void countFrames(String usePath) {
     if(imgNames.size()==0){
       exit();
     }else{
+      // We need this because Processing 2, unlike Processing 1, will not automatically wait to let you pick a folder!
       firstRun = false;
     }
 }

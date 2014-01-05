@@ -9,7 +9,7 @@ boolean firstRun = true;
 void setup(){
   Settings settings = new Settings("settings.txt");
   chooseFolderDialog();
-
+  // We need this because Processing 2, unlike Processing 1, will not automatically wait to let you pick a folder!
   while(firstRun){
     try{
       if(imgNames.size() > 0) img = loadImage((String) imgNames.get(0));
