@@ -1,0 +1,5 @@
+Maximum Width
+512
+
+Output Filename
+spritesheet
