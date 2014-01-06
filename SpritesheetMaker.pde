@@ -20,7 +20,8 @@ void setup(){
   if(rowCount<1)rowCount=1;
   sW = img.width*rowCount;
   sH = int(img.height * rounder(float(imgNames.size())/float(rowCount), 0));  
-  size(sW+img.width,sH+img.height); 
+  size(sW,sH+img.height); 
+
   // create a pgraphics object for rendering on a transparent background 
   alphaImg = createGraphics(width,height,JAVA2D);  
 }
