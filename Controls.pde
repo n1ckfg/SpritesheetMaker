@@ -1,6 +1,6 @@
 import java.awt.Desktop;
 
-String openFilePath = "output";
+String openFilePath = "render";
 String folderPath;
 String fileName = "spritesheet";
 File dataFolder;
